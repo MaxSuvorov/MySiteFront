@@ -1,0 +1,48 @@
+body {
+    background-color: #121212; /* Тёмный фон для всей страницы */
+    color: #ffffff; /* Белый цвет текста для всей страницы */
+    font-family: 'Arial', sans-serif; /* Шрифт по умолчанию */
+}
+
+.skills-section {
+    background-color: #333333;  /* Более тёмный фон */
+    padding: 50px;  
+    border-radius: 25px;  
+    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.3);  /* Более заметная тень */
+    max-width: 700px;  
+    margin: 20px auto;  
+    text-align: center;  
+    transition: box-shadow 0.3s ease, background-color 0.3s ease;  
+} 
+ 
+.skills-section:hover { 
+    background-color: #444444;  /* Чуть светлее фон при наведении */
+} 
+ 
+.skills-section h2 { 
+    font-size: 2.8em;  
+    color: #ffffff;  /* Золото */
+    margin-bottom: 25px;  
+    text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.7); /* Тень для заголовка */
+} 
+ 
+.skills-list { 
+    display: flex;  
+    flex-wrap: wrap;  
+    justify-content: center;  
+} 
+ 
+.skills-list h1 { 
+    flex: 1 0 40%;  
+    font-size: 1.6em;  
+    color: #ffffff;  /* Белый цвет для списка навыков */
+    margin: 15px;  
+    transition: color 0.3s, transform 0.3s;  
+    position: relative; /* Для эффекта при наведении */
+} 
+ 
+.skills-list h1:hover { 
+    color: #1E90FF;  /* Цвет при наведении */
+    transform: translateY(-3px); /* Подъём при наведении */
+    text-shadow: 0 0 10px rgba(30, 144, 255, 0.7); /* Тень для эффекта */
+}

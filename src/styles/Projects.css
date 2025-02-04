@@ -1,0 +1,78 @@
+body {
+    background-color: #121212; /* Тёмный фон для всей страницы */
+    color: #ffffff; /* Белый цвет текста для всей страницы */
+    font-family: 'Arial', sans-serif; /* Шрифт по умолчанию */
+}
+
+.projects-section {
+    padding: 50px; 
+    background-color: rgba(34, 34, 34, 0.9); 
+    color: #ffffff; 
+    max-width: 900px; 
+    margin: 100px auto; 
+    border-radius: 20px; 
+    box-shadow: 0 12px 25px rgba(0, 0, 0, 0.2); 
+}
+
+.projects-section h2 {
+    font-size: 32px; 
+    color: #ffffff; /* Белый цвет заголовка */
+    margin-bottom: 25px; 
+    text-align: center; 
+    text-transform: uppercase; 
+    letter-spacing: 1px; /* Добавлено расстояние между буквами для стиля */
+}
+
+.projects-section p {
+    font-size: 20px; 
+    line-height: 1.8; 
+    margin-bottom: 25px; 
+    color: #ffffff; /* Белый цвет текста */
+} 
+
+.projects-list {
+    list-style: none; 
+    padding: 0; 
+} 
+
+.project-item {
+    background-color: rgba(255, 255, 255, 0.1); /* Более тёмный полупрозрачный фон для элементов проектов */
+    border: 1px solid rgba(255, 255, 255, 0.3); /* Легкая граница */
+    border-radius: 15px; 
+    padding: 25px; 
+    margin: 20px 0; 
+    transition: transform 0.4s, box-shadow 0.4s; 
+} 
+
+.project-item:hover {
+    transform: translateY(-5px); 
+    box-shadow: 0 5px 25px rgba(255, 255, 255, 0.2); /* Эффект тени при наведении */
+} 
+
+.project-title {
+    font-size: 24px; 
+    color: #ffffff; /* Белый цвет названия проекта */
+    margin: 0 0 15px; 
+    font-weight: bold; /* Жирный текст для названия проекта */
+} 
+
+.project-description {
+    font-size: 18px; 
+    margin: 15px 0; 
+    color: #d1d1d1; /* Светло-серый цвет описания для контраста */
+} 
+
+.project-link {
+    display: inline-block; 
+    padding: 12px 20px; 
+    background-color: #1c1c1c; 
+    color: #ffffff; /* Белый цвет текста ссылки */
+    text-decoration: none; 
+    border-radius: 8px; 
+    transition: background-color 0.3s ease, transform 0.3s; 
+} 
+
+.project-link:hover {
+    background-color: #FF6F61; 
+    transform: scale(1.1); 
+}

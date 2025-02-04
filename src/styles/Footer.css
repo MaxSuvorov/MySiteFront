@@ -1,0 +1,49 @@
+.footer {
+    padding: 40px 20px; /* Увеличенный отступ */
+    background-color: rgba(0, 0, 0, 0.95); /* Тёмный полупрозрачный фон */
+    color: #bb86fc; /* Приятный фиолетовый цвет текста */
+    text-align: center;
+    position: relative;
+    bottom: 0;
+    box-shadow: 0 -4px 25px rgba(187, 134, 252, 0.1); /* Тень с фиолетовым акцентом */
+    border-top: 2px solid rgba(187, 134, 252, 0.3); /* Фиолетовая граница */
+    font-family: 'Arial', sans-serif; /* Шрифт по умолчанию */
+}
+
+.footer p {
+    margin: 0;
+    font-size: 16px;
+    color: #bb86fc; /* Фиолетовый цвет текста */
+    opacity: 0.9; /* Лёгкая прозрачность для текста */
+}
+
+.footer-links {
+    list-style: none;
+    padding: 0;
+    margin: 25px 0 0; /* Увеличенный отступ сверху */
+    display: flex;
+    justify-content: center;
+    gap: 25px; /* Увеличенный промежуток между элементами */
+}
+
+.footer-links li {
+    margin: 0;
+}
+
+.footer-links a {
+    color: #bb86fc; /* Фиолетовый цвет текста */
+    text-decoration: none; /* Убрано подчёркивание */
+    font-weight: 600;
+    font-size: 16px;
+    padding: 8px 15px; /* Увеличенные отступы для ссылок */
+    border-radius: 8px; /* Скруглённые углы */
+    transition: color 0.3s ease, background-color 0.3s ease, transform 0.2s ease, box-shadow 0.3s ease; /* Плавные переходы */
+}
+
+.footer-links a:hover {
+    color: #1a1a1a; /* Тёмный текст при наведении */
+    background-color: #bb86fc; /* Фиолетовый фон при наведении */
+    transform: scale(1.05); /* Увеличение при наведении */
+    box-shadow: 0 4px 15px rgba(187, 134, 252, 0.3); /* Тень при наведении */
+    text-decoration: none; /* Убрано подчёркивание */
+}
